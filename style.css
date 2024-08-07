@@ -1,0 +1,63 @@
+/* Bootswatch Theme: Cosmo */
+@import url('https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/cosmo/bootstrap.min.css');
+
+/* Custom Styles */
+.primary {
+  background-color: #0275d8;
+}
+
+.text-primary {
+  color: #0275d8;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #0275d8;
+  border-color: #0275d8;
+}
+
+.btn-warning {
+  background-color: #f0ad4e;
+  border-color: #f0ad4e;
+}
+
+.btn-danger {
+  background-color: #d9534f;
+  border-color: #d9534f;
+}
+
+.btn-info {
+  background-color: #5bc0de;
+  border-color: #5bc0de;
+}
+
+.btn-success {
+  background-color: #5cb85c;
+  border-color: #5cb85c;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+}
+
+p, .lead {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+/* Inputs */
+input[type="text"], input[type="password"], textarea {
+  border-radius: 0.25rem;
+  border: 1px solid #ccc;
+}
+
+/* Cards */
+.card {
+  border-radius: 0.25rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
